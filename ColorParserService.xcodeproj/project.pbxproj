@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7D84CC915A24A28001CFD89 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D84CC815A24A28001CFD89 /* Cocoa.framework */; };
+		A7D84CD315A24A28001CFD89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7D84CD115A24A28001CFD89 /* InfoPlist.strings */; };
+		A7D84CD515A24A28001CFD89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D84CD415A24A28001CFD89 /* main.m */; };
+		A7D84CD915A24A28001CFD89 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A7D84CD715A24A28001CFD89 /* Credits.rtf */; };
+		A7D84CDC15A24A28001CFD89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D84CDB15A24A28001CFD89 /* AppDelegate.m */; };
+		A7D84CDF15A24A28001CFD89 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7D84CDD15A24A28001CFD89 /* MainMenu.xib */; };
+		A7D84CE815A24D05001CFD89 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D84CE715A24D05001CFD89 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A7D84CEB15A24D60001CFD89 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D84CEA15A24D60001CFD89 /* libicucore.dylib */; };
+		A7D84D0415A25042001CFD89 /* NSColor+LXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D84D0215A25042001CFD89 /* NSColor+LXExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7D84CC415A24A28001CFD89 /* ColorParserService.service */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorParserService.service; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D84CC815A24A28001CFD89 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A7D84CCB15A24A28001CFD89 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A7D84CCC15A24A28001CFD89 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A7D84CCD15A24A28001CFD89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7D84CD015A24A28001CFD89 /* ColorParserService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorParserService-Info.plist"; sourceTree = "<group>"; };
+		A7D84CD215A24A28001CFD89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7D84CD415A24A28001CFD89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7D84CD615A24A28001CFD89 /* ColorParserService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorParserService-Prefix.pch"; sourceTree = "<group>"; };
+		A7D84CD815A24A28001CFD89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A7D84CDA15A24A28001CFD89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7D84CDB15A24A28001CFD89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7D84CDE15A24A28001CFD89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A7D84CE615A24D05001CFD89 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		A7D84CE715A24D05001CFD89 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		A7D84CEA15A24D60001CFD89 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		A7D84D0215A25042001CFD89 /* NSColor+LXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSColor+LXExtension.m"; path = "ColorParserService/NSColor+LXExtension.m"; sourceTree = SOURCE_ROOT; };
+		A7D84D0315A25042001CFD89 /* NSColor+LXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor+LXExtension.h"; path = "ColorParserService/NSColor+LXExtension.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7D84CC115A24A28001CFD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D84CEB15A24D60001CFD89 /* libicucore.dylib in Frameworks */,
+				A7D84CC915A24A28001CFD89 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7D84CB915A24A28001CFD89 = {
+			isa = PBXGroup;
+			children = (
+				A7D84CCE15A24A28001CFD89 /* ColorParserService */,
+				A7D84CC715A24A28001CFD89 /* Frameworks */,
+				A7D84CC515A24A28001CFD89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7D84CC515A24A28001CFD89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7D84CC415A24A28001CFD89 /* ColorParserService.service */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7D84CC715A24A28001CFD89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D84CEA15A24D60001CFD89 /* libicucore.dylib */,
+				A7D84CC815A24A28001CFD89 /* Cocoa.framework */,
+				A7D84CCA15A24A28001CFD89 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7D84CCA15A24A28001CFD89 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D84CCB15A24A28001CFD89 /* AppKit.framework */,
+				A7D84CCC15A24A28001CFD89 /* CoreData.framework */,
+				A7D84CCD15A24A28001CFD89 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A7D84CCE15A24A28001CFD89 /* ColorParserService */ = {
+			isa = PBXGroup;
+			children = (
+				A7D84CE515A24D05001CFD89 /* RegexKitLite */,
+				A7D84D0315A25042001CFD89 /* NSColor+LXExtension.h */,
+				A7D84D0215A25042001CFD89 /* NSColor+LXExtension.m */,
+				A7D84CDA15A24A28001CFD89 /* AppDelegate.h */,
+				A7D84CDB15A24A28001CFD89 /* AppDelegate.m */,
+				A7D84CDD15A24A28001CFD89 /* MainMenu.xib */,
+				A7D84CCF15A24A28001CFD89 /* Supporting Files */,
+			);
+			path = ColorParserService;
+			sourceTree = "<group>";
+		};
+		A7D84CCF15A24A28001CFD89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7D84CD015A24A28001CFD89 /* ColorParserService-Info.plist */,
+				A7D84CD115A24A28001CFD89 /* InfoPlist.strings */,
+				A7D84CD415A24A28001CFD89 /* main.m */,
+				A7D84CD615A24A28001CFD89 /* ColorParserService-Prefix.pch */,
+				A7D84CD715A24A28001CFD89 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7D84CE515A24D05001CFD89 /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				A7D84CE615A24D05001CFD89 /* RegexKitLite.h */,
+				A7D84CE715A24D05001CFD89 /* RegexKitLite.m */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7D84CC315A24A28001CFD89 /* ColorParserService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7D84CE215A24A28001CFD89 /* Build configuration list for PBXNativeTarget "ColorParserService" */;
+			buildPhases = (
+				A7D84CC015A24A28001CFD89 /* Sources */,
+				A7D84CC115A24A28001CFD89 /* Frameworks */,
+				A7D84CC215A24A28001CFD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorParserService;
+			productName = ColorParserService;
+			productReference = A7D84CC415A24A28001CFD89 /* ColorParserService.service */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7D84CBB15A24A28001CFD89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A7D84CBE15A24A28001CFD89 /* Build configuration list for PBXProject "ColorParserService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7D84CB915A24A28001CFD89;
+			productRefGroup = A7D84CC515A24A28001CFD89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7D84CC315A24A28001CFD89 /* ColorParserService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7D84CC215A24A28001CFD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D84CD315A24A28001CFD89 /* InfoPlist.strings in Resources */,
+				A7D84CD915A24A28001CFD89 /* Credits.rtf in Resources */,
+				A7D84CDF15A24A28001CFD89 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7D84CC015A24A28001CFD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D84CD515A24A28001CFD89 /* main.m in Sources */,
+				A7D84CDC15A24A28001CFD89 /* AppDelegate.m in Sources */,
+				A7D84CE815A24D05001CFD89 /* RegexKitLite.m in Sources */,
+				A7D84D0415A25042001CFD89 /* NSColor+LXExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7D84CD115A24A28001CFD89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D84CD215A24A28001CFD89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7D84CD715A24A28001CFD89 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D84CD815A24A28001CFD89 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A7D84CDD15A24A28001CFD89 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D84CDE15A24A28001CFD89 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7D84CE015A24A28001CFD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7D84CE115A24A28001CFD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7D84CE315A24A28001CFD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorParserService/ColorParserService-Prefix.pch";
+				INFOPLIST_FILE = "ColorParserService/ColorParserService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = service;
+			};
+			name = Debug;
+		};
+		A7D84CE415A24A28001CFD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorParserService/ColorParserService-Prefix.pch";
+				INFOPLIST_FILE = "ColorParserService/ColorParserService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = service;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7D84CBE15A24A28001CFD89 /* Build configuration list for PBXProject "ColorParserService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D84CE015A24A28001CFD89 /* Debug */,
+				A7D84CE115A24A28001CFD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7D84CE215A24A28001CFD89 /* Build configuration list for PBXNativeTarget "ColorParserService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D84CE315A24A28001CFD89 /* Debug */,
+				A7D84CE415A24A28001CFD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7D84CBB15A24A28001CFD89 /* Project object */;
+}
