@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A7D84CC415A24A28001CFD89 /* ColorParserService.service */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorParserService.service; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D84CC415A24A28001CFD89 /* ColorParserService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorParserService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D84CC815A24A28001CFD89 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A7D84CCB15A24A28001CFD89 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A7D84CCC15A24A28001CFD89 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		A7D84CC515A24A28001CFD89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7D84CC415A24A28001CFD89 /* ColorParserService.service */,
+				A7D84CC415A24A28001CFD89 /* ColorParserService.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			);
 			name = ColorParserService;
 			productName = ColorParserService;
-			productReference = A7D84CC415A24A28001CFD89 /* ColorParserService.service */;
+			productReference = A7D84CC415A24A28001CFD89 /* ColorParserService.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

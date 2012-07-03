@@ -120,7 +120,7 @@
             NSString *str=@"";
             for(NSInteger i=0; i<[s length] && [str length]<6; i++){
                 UniChar c=[s characterAtIndex:i];
-                if ( (c>='0' && c<='0') || (c>='a' && c<='f') ) {
+                if ( (c>='0' && c<='9') || (c>='a' && c<='f') ) {
                     str=[str stringByAppendingFormat:@"%C",c];
                 }
                 else{
@@ -155,7 +155,7 @@
             NSString *str=@"";
             for(NSInteger i=0; i<[s length] && [str length]<6; i++){
                 UniChar c=[s characterAtIndex:i];
-                if ( (c>='0' && c<='0') || (c>='a' && c<='f') ) {
+                if ( (c>='0' && c<='9') || (c>='a' && c<='f') ) {
                     str=[str stringByAppendingFormat:@"%C",c];
                 }
                 else{
@@ -394,6 +394,12 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	[NSApp setServicesProvider:self];
+    
+    NSColor *c=[self parserColorString:@"#FFA500"];
+    if (c) {
+        [self showColor:c];
+    }
+ 
 }
 
 - (void)colorParser:(NSPasteboard *)pboard userData:(NSString *)userData error:(NSString **)error
