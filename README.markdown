@@ -6,7 +6,7 @@ It will become a handy tool for a Mac programmer.
 
 ![snapshot.png](https://github.com/keefo/ColorParserService/raw/master/snapshot.jpg "Snapshot")
 
-＃Install
+#Install
 
 Compile and drag ColorParserService.service into this folder
 
